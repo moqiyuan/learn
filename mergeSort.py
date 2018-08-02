@@ -1,4 +1,4 @@
-# 合并函数
+# merge
 def merge(left, right):
     merged = []
     i, j = 0, 0
@@ -13,9 +13,6 @@ def merge(left, right):
     merged.extend(left[i:])
     merged.extend(right[j:])
     return merged
-
-# 拆分函数
-
 
 def mergeSort(a):
     if len(a) <= 1:
